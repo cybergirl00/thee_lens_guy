@@ -4,15 +4,15 @@ import React, { useState } from "react";
 
 const Portfolio = () => {
   const portfolioImages = [
-    "/cross.jpg",
+    "/cross.JPG",
     "/black.jpg",
-    "/flower.jpg",
-    "/wed.jpg",
-    "/girl.jpg",
-    "/woman.jpg",
+    "/flower.JPG",
+    "/wed.JPG",
+    "/girl.JPG",
+    "/woman.JPG",
   ];
 
-  const portfolioVideos = ["/video1.mp4", "/video1.mov", "/video.mp4"];
+  const portfolioVideos = ["/video1.MP4", "/video1.MOV", "/video.mp4"];
 
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentVideo, setCurrentVideo] = useState("");
