@@ -9,11 +9,11 @@ const Hero = () => {
         {/* Text Content */}
         <div className="space-y-6">
           <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-            Hi, I&apos;m <span className="text-primary">The_Lens_Guy</span>
+            Hi, I&apos;m <span className="text-primary">Thee.Lens_Guy</span>
           </h1>
           <p className="text-lg text-gray-700">
             I&apos;m a mobile photographer and content creator with 1 year of
-            experience and a 5-star rating, based in Kwara State. Capturing
+            experience and a 5-star rating, based in Kwara/Lagos State. Capturing
             moments and creating memories is my passion.
           </p>
           <ul className="list-disc pl-5 text-gray-600 space-y-2">
