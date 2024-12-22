@@ -1,4 +1,5 @@
 'use client';
+import Image from "next/image";
 import React, { useState } from "react";
 
 const Portfolio = () => {
@@ -38,7 +39,7 @@ const Portfolio = () => {
             key={index}
             className="relative group overflow-hidden rounded-lg shadow-lg"
           >
-            <img
+            <Image width={400} height={400}
               src={src}
               alt={`Portfolio Image ${index + 1}`}
               className="transition-transform duration-300 group-hover:scale-110 w-full h-auto rounded-lg"
