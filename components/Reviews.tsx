@@ -54,7 +54,7 @@ const Reviews = () => {
             key={index}
             className="flex-shrink-0 w-80 p-6 bg-primary/10 rounded-lg text-gray-800 text-lg shadow-md hover:scale-105 transform transition-transform duration-300 border border-primary/20"
           >
-            <p className="italic mb-4">"{review}"</p>
+            <p className="italic mb-4">&quot;{review}&quot;</p>
             <div className="text-sm text-primary font-bold">- Happy Client</div>
           </div>
         ))}
