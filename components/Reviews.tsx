@@ -5,7 +5,6 @@ import React, { useEffect, useRef, useState } from "react";
 const Reviews = () => {
   const reviews = [
     "Amazing photographer! The attention to detail in every shot is incredible.",
-    "Truly a professional. Captured moments we’ll cherish forever!",
     "Great experience working with The_Lens_Guy. Highly recommend!",
     "Superb creativity and execution. Loved every picture taken.",
     "Professional and punctual. The results were outstanding!",

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Karla, Roboto_Mono} from 'next/font/google'
+import { Karla} from 'next/font/google'
 import "./globals.css";;
 
 
