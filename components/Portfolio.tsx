@@ -5,7 +5,7 @@ import React, { useState } from "react";
 const Portfolio = () => {
   const portfolioImages = [
     "/cross.JPG",
-    "/black.jpg",
+    "/black.JPG",
     "/flower.JPG",
     "/wed.JPG",
     "/girl.JPG",

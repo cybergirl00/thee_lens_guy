@@ -25,7 +25,7 @@ export default function RootLayout({
         <main>{children}</main>
 
         <div className="bg-gray-300">
-          <h1 className="text-center text-2xl font-extrabold p-4">Designed by Rabiat with <span className="text-red-500">❤</span></h1>
+          <h1 className="text-center text-gray-900 text-xl font-extrabold p-4">Designed by Rabiat with <span className="text-red-500">❤</span></h1>
         </div>
       </body>
     </html>

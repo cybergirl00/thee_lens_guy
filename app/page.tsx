@@ -19,7 +19,7 @@ const Home = () => {
         <section id='contact' className="flex flex-col justify-center p-5 items-center gap-6">
           <h2 className='text-center text-3xl'>Contact <span className='text-primary font-extrabold'>Us</span> </h2>
 
-          <div className="justify-center items-center flex gap-10">
+          <div className="justify-center items-center flex flex-col lg:flex-row gap-10">
 
             <Link href={'https://instagram.com/thee.lens_guyy?igshid=MmVlMjlkMTBhMg=='} className='flex items-center hover:shadow-md  gap-4 shadow-sm p-3'>
             <Instagram size={30}className='text-primary' />
